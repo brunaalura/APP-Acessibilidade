@@ -368,12 +368,57 @@
               <label>Estado:</label>
               <input type="text" class="contatoCampo-campoDesabilitado" disabled value="SP">
             </div>
+
+             <div class="contatoCampo">
+              <label>Mensagem:</label>
+              <textarea name="" cols="30" rows="10" required></textarea>
+            </div>
+
+            <div class="contatoCampo">
+              <input type="checkbox" checked value="receberDestaques" class="contatoCampo-checkbox" id="receberEmail">
+              <label class="contatoCampo-label" for="receberEmail">Receber destaques por email</label>
+            </div>
+
+            <div class=" contatoCampo">
+              <button class="secaoContato-cta btnPadrao" type="submit">
+                Enviar Mensagem
+              </button>
+              <span class="contatoCampo-msg contatoCampo-msg--erro secaoContatoForm-validacao">
+                Verifique os erros acima
+              </span>
+            </div>
           </form>
         </div>
     </section><!--fim.secaoContato-->
 
-  
+    <section class="secaoInstitucional"><!--Início de secao-->
+        <div class="container">
+          <h2 class="tituloPadrao">
+            INSTITUCIONAL 
+          </h2>
+          <div class="secaoInstitucional-coluna">
+            <p>
+              Um pouco mais sobre a Apeperia
+            </p>
+            <address class="secaoInstitucional-endereco">
+              Rua Vergueiro, 3185 <br> Vila Mariana, São Paulo 
+            </address>
+            <p class="secaoInstitucional-telefone">
+              (11) 5571-2571 ou <a href="#">contato@apeperia.com</a>
+            </p>
+          </div>
 
-</main>    
+          <video src="img/formacao-java.mp4" class="secaoInstitucional-video">
+          </video>
+        </div>
+    </section><!--fim. secaoInstitucional-->
+  </main>   
+  
+  <footer class="rodape">
+    <div class="container">
+      <img src="APP Acessibilidade/src/img/logo-apeperia.svg" class="rodape-logo" alt="Logotipo apeperia">
+      
+    </div>
+  </footer>
 </body>
 </html>
