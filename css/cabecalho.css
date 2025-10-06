@@ -22,7 +22,7 @@
 
 .cabecalho-logo-img:hover,
 .cabecalho-logo-img:focus {
-    filter: ]brightness(1.2);
+    filter: brightness(1.2);
 }
 
 .cabecalho-nav {
@@ -33,5 +33,32 @@
     display: inline-block;
     line-height: 2;
     margin: 0.5em;
-    font-size:  .95em;
+    font-size:  .95em;    
+}
+
+.cabecalho-nav-item-a {
+    text-decoration: none;
+    color: #fff;
+    font-family: 'Open Sans', serif;
+}
+
+.cabecalho-nav-item-a:hover,
+.cabecalho-nav-item-a:focus {
+    text-decoration: underline;
+}
+
+@media (min-windth: 830px) {
+
+    .cabecalho {
+        border-bottom: 0;
+        padding-bottom: 0;
+    }
+
+    .cabecalho-logo {
+        float: left;
+    }
+    .cabecalho-nav {
+        float: right;
+        margin-top: 1em;
+    }
 }
