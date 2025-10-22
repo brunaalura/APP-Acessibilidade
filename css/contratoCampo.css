@@ -94,15 +94,30 @@
     background-color: #fff;
     position: relative;
 }
+t
+.contatoCampo--sucesso::before {
+    content: '';
+    display: inline-block;
+    width: 33px;
+    heigh: 32px;
+    position: absolute;
+    z-index: 1;
+    right: .4em;
+    transform: translateY(112%) scale(.65);
+    background-image: url(../src/img/validacao-sucesso.png)
+}
 
 .contatoCampo--sucesso::before {
     content: '';
     display: inline-block;
     width: 33px;
-    height: 32px;
+    heigh: 32px;
     position: absolute;
     z-index: 1;
     right: .4em;
     transform: translateY(112%) scale(.65);
-    background-image: url(../APP\ Acessibilidade/)
+    background-image: url(../src/img/validacao-erro.png)
 }
+
+
+
